@@ -41,7 +41,7 @@ Material:
     - _VoronoiSpeed: 1.5
     m_Colors:
     - Color_AA92F907: {r: 0.35294116, g: 0.5355929, b: 1, a: 0}
-    - Color_F6A772B4: {r: 0.119927004, g: 0.4723023, b: 0.7264151, a: 1}
+    - Color_F6A772B4: {r: 0.10969208, g: 0.7182784, b: 0.8018868, a: 1}
     - _RipplesColor: {r: 0.80544674, g: 0.9236086, b: 0.9433962, a: 0}
     - _RipplesSpeed: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

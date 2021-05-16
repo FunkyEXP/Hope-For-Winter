@@ -877,8 +877,8 @@ MonoBehaviour:
   SoundName: Cool UI Button
   IgnoreListenerPause: 1
   Volume:
-    MinValue: -33.7
-    MaxValue: -33.7
+    MinValue: 0
+    MaxValue: 0
   Pitch:
     MinValue: 0
     MaxValue: 0

@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
+using System.Collections;
 
 namespace ExamineSystem
 {
@@ -19,12 +21,40 @@ namespace ExamineSystem
 
         [SerializeField] private KeyCode openDoorKey = KeyCode.Mouse0;
 
+        [SerializeField]
+        private GameObject lastClicked;
+
         private const string pickupTag = "Pickup";
         private const string cabinDoor = "Cabin Door";
         private const string cabinWindow = "Cabin Window";
+        private const string brokenFence = "Broken Fence";
+        private const string fallenTree = "Fallen Tree";
+
+        [SerializeField]
+        private GameObject _fixedFence;
 
         private MyDoorController _doorObject;
         private WindowController _windowObject;
+
+        private UIManager _uiManager;
+        private SFXManager _sfx;
+
+        private FirstPersonController _first;
+
+
+        private void Start()
+        {
+            _uiManager = GameObject.Find("UI Manager").GetComponent<UIManager>();
+
+            _first = GameObject.Find("FPSController").GetComponent<FirstPersonController>();
+
+            _sfx = GameObject.Find("SFX Manager").GetComponent<SFXManager>();
+
+            if(_uiManager == null)
+            {
+                Debug.LogError("UI Manager is null");
+            }
+        }
 
         void Update()
         {
@@ -82,6 +112,25 @@ namespace ExamineSystem
                         _doorObject.PlayAnimation();
                     }
                 }
+                else if (hit.collider.CompareTag(brokenFence))
+                {
+                    if (Input.GetMouseButtonDown(0))
+                    {
+                        lastClicked = hit.transform.gameObject;
+                        _uiManager.fixFence.SetActive(true);
+                        _first.MouseUnlock();
+                    }             
+                }
+                else if (hit.collider.CompareTag(fallenTree))
+                {
+                    if (Input.GetMouseButtonDown(0))
+                    {
+                        Debug.Log("Hello");
+                        lastClicked = hit.transform.gameObject;
+                        _uiManager.clearTree.SetActive(true);
+                        _first.MouseUnlock();
+                    }
+                }
             }
             else
             {
@@ -134,5 +183,31 @@ namespace ExamineSystem
                 isCrosshairActive = false;
             }
         }
+
+        public void FixFence()
+        {
+            _sfx.PlaySFX(0);
+            StartCoroutine(WaitAndFix());
+        }
+
+        public void ClearTree()
+        {
+            _sfx.PlaySFX(1);
+            StartCoroutine(WaitAndDestroy());
+        }
+
+        private IEnumerator WaitAndFix()
+        {
+            yield return new WaitForSeconds(5f);
+            Instantiate(_fixedFence, lastClicked.gameObject.transform.position, lastClicked.gameObject.transform.rotation);
+            Destroy(lastClicked.gameObject);
+        }
+
+        private IEnumerator WaitAndDestroy()
+        {
+            yield return new WaitForSeconds(5f);
+            Destroy(lastClicked.gameObject);
+        }
+
     }
 }

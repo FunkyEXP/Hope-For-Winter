@@ -1,0 +1,19 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.128981410)
+
+newmtl Dog Cage Black
+kd 0.0185002 0.0221739 0.028426
+illum 1
+
+newmtl Walls
+kd 0.361307 0.215861 0.109462
+illum 1
+
+newmtl Material.001
+kd 0.0290996 0.016141 0.00608368
+illum 1
+
+newmtl Material.004
+kd 0.00807586 0.00807586 0.00807586
+illum 1
+

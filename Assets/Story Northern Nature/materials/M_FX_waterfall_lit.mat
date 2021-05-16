@@ -41,6 +41,6 @@ Material:
     - _VoronoiScale: 10
     - _VoronoiSpeed: 1
     m_Colors:
-    - _RipplesColor: {r: 0, g: 0.56173337, b: 0.8018868, a: 1}
+    - _RipplesColor: {r: 0, g: 2.245026, b: 3.2, a: 1}
     - _RipplesSpeed: {r: 0, g: 0.4, b: 0, a: 0}
   m_BuildTextureStacks: []

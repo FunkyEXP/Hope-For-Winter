@@ -10,6 +10,8 @@ TagManager:
   - Cabin Window
   - Window Left
   - Window Right
+  - Broken Fence
+  - Fallen Tree
   layers:
   - Default
   - TransparentFX

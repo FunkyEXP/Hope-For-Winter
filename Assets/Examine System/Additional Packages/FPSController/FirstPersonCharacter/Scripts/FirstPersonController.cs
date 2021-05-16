@@ -81,8 +81,19 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+
         }
 
+
+        public void MouseLock()
+        {
+            m_MouseLook.SetCursorLock(true);
+        }
+
+        public void MouseUnlock()
+        {
+            m_MouseLook.SetCursorLock(false);
+        }
 
         private void PlayLandingSound()
         {
