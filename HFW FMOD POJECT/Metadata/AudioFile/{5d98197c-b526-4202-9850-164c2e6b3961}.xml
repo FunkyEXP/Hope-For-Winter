@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{5d98197c-b526-4202-9850-164c2e6b3961}">
+		<property name="assetPath">
+			<value>HOPE FOR WINTER AMBmetal 1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>9.0565986394557818</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c56d9869-3193-4dc7-b976-99a24170f250}</destination>
+		</relationship>
+	</object>
+</objects>
