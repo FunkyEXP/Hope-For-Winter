@@ -306,7 +306,7 @@ ScriptedImporter:
       - name: _BaseMap
         texture: {fileID: -548015496208752528, guid: bdae6b22634a9c04cafbf3f4592b18f9,
           type: 3}
-        scale: {x: 3, y: 3}
+        scale: {x: 4, y: 4}
         offset: {x: 0, y: 0}
       - name: _BumpMap
         texture: {fileID: 3639804045379524331, guid: bdae6b22634a9c04cafbf3f4592b18f9,
@@ -331,7 +331,7 @@ ScriptedImporter:
         offset: {x: 0, y: 0}
       - name: _MainTex
         texture: {instanceID: 0}
-        scale: {x: 3, y: 3}
+        scale: {x: 4, y: 4}
         offset: {x: 0, y: 0}
       - name: _MetallicGlossMap
         texture: {fileID: 4290242798287775067, guid: bdae6b22634a9c04cafbf3f4592b18f9,
@@ -856,7 +856,7 @@ ScriptedImporter:
       - name: _BaseMap
         texture: {fileID: 708012097808741634, guid: bdae6b22634a9c04cafbf3f4592b18f9,
           type: 3}
-        scale: {x: 12, y: 11}
+        scale: {x: 13, y: 11}
         offset: {x: 0, y: 0}
       - name: _BumpMap
         texture: {fileID: 702218733210960537, guid: bdae6b22634a9c04cafbf3f4592b18f9,
@@ -881,7 +881,7 @@ ScriptedImporter:
         offset: {x: 0, y: 0}
       - name: _MainTex
         texture: {instanceID: 0}
-        scale: {x: 12, y: 11}
+        scale: {x: 13, y: 11}
         offset: {x: 0, y: 0}
       - name: _MetallicGlossMap
         texture: {fileID: -374880908120444725, guid: bdae6b22634a9c04cafbf3f4592b18f9,
