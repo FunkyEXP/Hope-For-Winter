@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{a263a129-1328-4e91-b9f3-312dae6b52ce}">
+		<property name="assetPath">
+			<value>WATER STEP 3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.9688888888888889</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c56d9869-3193-4dc7-b976-99a24170f250}</destination>
+		</relationship>
+	</object>
+</objects>
