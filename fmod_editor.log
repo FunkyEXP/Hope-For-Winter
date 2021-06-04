@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 00000155480436D8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001F8EDAA81A8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -16,3 +16,640 @@
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85318
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Snowstep1', format=5, channels=2, frequency=48000, lengthbytes=9216, lengthpcm=69480, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.039899.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85318
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Land', format=5, channels=1, frequency=48000, lengthbytes=4672, lengthpcm=24717, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85318
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Snowstep5', format=5, channels=2, frequency=48000, lengthbytes=10464, lengthpcm=69480, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.062894.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85318
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Snowstep4', format=5, channels=2, frequency=48000, lengthbytes=10240, lengthpcm=69480, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.061221.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85318
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Snowstep3', format=5, channels=2, frequency=48000, lengthbytes=10464, lengthpcm=69480, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.048966.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85318
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Snowstep2', format=5, channels=2, frequency=48000, lengthbytes=10848, lengthpcm=69480, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.046590.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85318
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Jump', format=5, channels=1, frequency=48000, lengthbytes=2496, lengthpcm=12150, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85108
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SNOW STEP 1.2', format=5, channels=2, frequency=48000, lengthbytes=9216, lengthpcm=92260, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.057030.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85108
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ICE STEP 5.2', format=5, channels=2, frequency=48000, lengthbytes=14336, lengthpcm=84366, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.121146.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85108
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SNOW STEP 5.2', format=5, channels=2, frequency=48000, lengthbytes=13056, lengthpcm=92909, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.054573.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85108
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SNOW STEP 4.2', format=5, channels=2, frequency=48000, lengthbytes=10240, lengthpcm=91701, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.065814.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85108
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ICE STEP 3.2', format=5, channels=2, frequency=48000, lengthbytes=14080, lengthpcm=86937, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.110408.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85108
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ICE STEP 1.2', format=5, channels=2, frequency=48000, lengthbytes=11072, lengthpcm=91485, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.124598.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85108
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='WATER STEP 3', format=5, channels=2, frequency=48000, lengthbytes=12800, lengthpcm=94506, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.113278.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85108
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='WATER STEP 1', format=5, channels=2, frequency=48000, lengthbytes=11296, lengthpcm=97657, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.106607.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85108
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='WATER STEP 5', format=5, channels=2, frequency=48000, lengthbytes=14176, lengthpcm=97685, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.098720.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85108
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ICE STEP 4.2', format=5, channels=2, frequency=48000, lengthbytes=9632, lengthpcm=86515, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.076641.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85108
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ICE STEP 2.2', format=5, channels=2, frequency=48000, lengthbytes=13952, lengthpcm=94420, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.130271.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85108
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='WATER STEP 4', format=5, channels=2, frequency=48000, lengthbytes=11968, lengthpcm=91986, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.084218.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85108
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='WATER STEP 2', format=5, channels=2, frequency=48000, lengthbytes=13504, lengthpcm=94506, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.126080.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85108
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SNOW STEP 3.2', format=5, channels=2, frequency=48000, lengthbytes=11840, lengthpcm=94263, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.053707.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000184D61F3D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB7D7D7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB7D7D7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB7D7D7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB7D7D7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001FAE5C85108
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SNOW STEP 2.2', format=5, channels=2, frequency=48000, lengthbytes=12544, lengthpcm=89249, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.057161.
+[LOG] SystemI::createSound                     : filename = HFW FMOD POJECT\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001FA819F7818 : node = 000001FA7F640EA0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001FB0A61A968.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001FA819F7818
+[LOG] SystemI::createSoundInternal             :     Create name='HFW FMOD POJECT\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001FA7F640FB0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='DROPS', format=5, channels=2, frequency=48000, lengthbytes=256448, lengthpcm=1019029, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.009783.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001FA819F7818
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001FA819F6228
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001FA819F6228
+[LOG] SystemI::createSound                     : filename = HFW FMOD POJECT\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001FA819F88F8 : node = 000001FA7F641760
+[LOG] SystemI::createSound                     : add node to async list : head = 000001FB0A61A968.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001FA819F88F8
+[LOG] SystemI::createSoundInternal             :     Create name='HFW FMOD POJECT\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001FA7F641870
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='WIND HOWL', format=5, channels=2, frequency=48000, lengthbytes=275456, lengthpcm=1204306, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.035260.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001FA819F88F8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001FA819F8AA8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001FA819F8AA8
+[LOG] SystemI::createSound                     : filename = HFW FMOD POJECT\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001FA819F94C8 : node = 000001FA7F6422A0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001FB0A61A968.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001FA819F94C8
+[LOG] SystemI::createSoundInternal             :     Create name='HFW FMOD POJECT\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001FA7F6423B0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='WIND HEAVY 1', format=5, channels=2, frequency=48000, lengthbytes=184992, lengthpcm=2964446, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.059754.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001FA819F94C8
+[LOG] SystemI::createSound                     : filename = HFW FMOD POJECT\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001FA819F6588 : node = 000001FA7F63F6E0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001FB0A61A968.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001FA819F6588
+[LOG] SystemI::createSoundInternal             :     Create name='HFW FMOD POJECT\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001FA7F63F7F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='HOPE FOR WINTER AMBsynth', format=5, channels=2, frequency=48000, lengthbytes=205376, lengthpcm=869433, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.104797.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001FA819F6588
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001FA819F68E8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001FA819F68E8
+[LOG] SystemI::createSound                     : filename = HFW FMOD POJECT\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001FA819F83E8 : node = 000001FA7F640FE0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001FB0A61A968.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001FA819F83E8
+[LOG] SystemI::createSoundInternal             :     Create name='HFW FMOD POJECT\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001FA7F6410F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='HOPE FOR WINTER AMBNP 1', format=5, channels=2, frequency=48000, lengthbytes=182848, lengthpcm=869433, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.063965.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001FA819F83E8
+[LOG] SoundI::release                          : HOPE FOR WINTER AMBNP 1 (000001F8E4917448)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBNP 1 (000001FAE66BCA38)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBNP 1 (000001FA819FDD58)
+[LOG] SoundI::release                          : WIND HOWL (000001FA819F88F8)
+[LOG] SoundI::release                          :     WIND HOWL (000001FA7F836A48)
+[LOG] SoundI::release                          :     WIND HOWL (000001FA819F8AA8)
+[LOG] SoundI::release                          : DROPS (000001FA819F7818)
+[LOG] SoundI::release                          :     DROPS (000001FA7F8370C8)
+[LOG] SoundI::release                          :     DROPS (000001FA819F6228)
+[LOG] SoundI::release                          : WIND HEAVY 1 (000001FA819F94C8)
+[LOG] SoundI::release                          :     WIND HEAVY 1 (000001FA7F836BE8)
+[LOG] SoundI::release                          :     WIND HEAVY 1 (000001FA819F8FB8)
+[LOG] SoundI::release                          : HOPE FOR WINTER AMBsynth (000001FA819F6588)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBsynth (000001FA7F837268)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBsynth (000001FA819F68E8)
+[LOG] SystemI::createSound                     : filename = HFW FMOD POJECT\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001FA819F7818 : node = 000001FA7F640EA0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001FB0A61A968.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001FA819F7818
+[LOG] SystemI::createSound                     : filename = HFW FMOD POJECT\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='HFW FMOD POJECT\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSound                     :     setdata soundi = 000001FA819FCAC8 : node = 000001FA7F641120
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 10358656
+[LOG] SystemI::createSound                     :     add node to async list : head = 000001FB0A61A968.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001FA7F640FB0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 36226
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='HOPE FOR WINTER AMBwinds', format=5, channels=2, frequency=48000, lengthbytes=397824, lengthpcm=3477736, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.001862.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001FA819F7818
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001FA819FCAC8
+[LOG] SystemI::createSoundInternal             :     Create name='HFW FMOD POJECT\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001FA7F641230
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='HOPE FOR WINTER AMBtina', format=5, channels=2, frequency=48000, lengthbytes=281184, lengthpcm=1738868, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.173431.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001FA819FCAC8
+[LOG] SystemI::createSound                     : filename = HFW FMOD POJECT\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001FA819F7ED8 : node = 000001FA7F642CA0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001FB0A61A968.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001FA819F7ED8
+[LOG] SystemI::createSoundInternal             :     Create name='HFW FMOD POJECT\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001FA7F642DB0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='HOPE FOR WINTER AMBNP 1', format=5, channels=2, frequency=48000, lengthbytes=182848, lengthpcm=869433, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.063965.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001FA819F7ED8
+[LOG] SoundI::release                          : HOPE FOR WINTER AMBtina (000001F8E4918018)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBtina (000001FAE66BDDB8)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBtina (000001FA819FF6A8)
+[LOG] SoundI::release                          : HOPE FOR WINTER AMBNP 1 (000001FA819F83E8)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBNP 1 (000001FA7F837748)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBNP 1 (000001FA819F7308)
+[LOG] SystemI::createSound                     : filename = HFW FMOD POJECT\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001FA81A04CB8 : node = 000001FA7F642DE0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001FB0A61A968.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001FA81A04CB8
+[LOG] SystemI::createSoundInternal             :     Create name='HFW FMOD POJECT\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 10358656
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 49312
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001FA7F642EF0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='WIND HEAVY 1', format=5, channels=2, frequency=48000, lengthbytes=184992, lengthpcm=2964446, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.059754.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001FA81A04CB8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001FA81A03878
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001FA81A03878
+[LOG] SoundI::release                          :  (000001FA81C1C9D8)
+[LOG] SoundI::release                          :     Land (000001FAE6752108)
+[LOG] SoundI::release                          :  (000001FA81C1E808)
+[LOG] SoundI::release                          :     Jump (000001FAE67518E8)
+[LOG] SoundI::release                          :  (000001FA81C1EC58)
+[LOG] SoundI::release                          :     Snowstep1 (000001FAE6752788)
+[LOG] SoundI::release                          :  (000001FA81C1CCB8)
+[LOG] SoundI::release                          :     Snowstep2 (000001FAE67515A8)
+[LOG] SoundI::release                          :  (000001FA81C1CB48)
+[LOG] SoundI::release                          :     Snowstep3 (000001FAE6750D88)
+[LOG] SoundI::release                          :  (000001FA81C1D6C8)
+[LOG] SoundI::release                          :     Snowstep4 (000001FAE6750F28)
+[LOG] SoundI::release                          :  (000001FA81C1F668)
+[LOG] SoundI::release                          :     Snowstep5 (000001FAE6750BE8)
+[LOG] SoundI::release                          :  (000001FA81C14B58)
+[LOG] SoundI::release                          :     CROW 1 (000001F8EB7B9F48)
+[LOG] SoundI::release                          :  (000001FA81C12D28)
+[LOG] SoundI::release                          :     CROW 2 (000001FAE66BD598)
+[LOG] SoundI::release                          :  (000001FA81C14708)
+[LOG] SoundI::release                          :     CROW 3 (000001F8EB7B9DA8)
+[LOG] SoundI::release                          :  (000001FA81C125F8)
+[LOG] SoundI::release                          :     BIRDS (000001F8EB7BB7A8)
+[LOG] SoundI::release                          :  (000001FA81C11BE8)
+[LOG] SoundI::release                          :     WIND FOR EQ short (000001F8EB7BBC88)
+[LOG] SoundI::release                          :  (000001FA81C12A48)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBmetal 1 (000001F8EB7B8068)
+[LOG] SoundI::release                          :  (000001FA81C159B8)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBmetal 2 (000001FAE66BD8D8)
+[LOG] SoundI::release                          :  (000001FA81C12BB8)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBmetal 3 (000001FAE66BD0B8)
+[LOG] SoundI::release                          :  (000001FA81C16538)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBmetal 4 (000001F8EB7BB948)
+[LOG] SoundI::release                          : HOPE FOR WINTER AMBtina (000001FA819FCAC8)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBtina (000001FA7F836BE8)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBtina (000001FA819F6228)
+[LOG] SoundI::release                          : HOPE FOR WINTER AMBwinds (000001FA819F7818)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBwinds (000001FA7F836A48)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBwinds (000001FA819F6078)
+[LOG] SoundI::release                          : HOPE FOR WINTER AMB 1st vi (000001FA819FF198)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMB 1st vi (000001FAE66BC078)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMB 1st vi (000001FA819FCE28)
+[LOG] SoundI::release                          : HOPE FOR WINTER AMBbass (000001F8E4918888)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBbass (000001FAE66BD3F8)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBbass (000001FA819FF858)
+[LOG] SoundI::release                          : HOPE FOR WINTER AMBnoir (000001F8E49177A8)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBnoir (000001FAE66BDA78)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBnoir (000001FA819FEAD8)
+[LOG] SoundI::release                          : HOPE FOR WINTER AMBHarp full (000001F8E4918378)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBHarp full (000001FAE66BD258)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBHarp full (000001FA81A03008)
+[LOG] SoundI::release                          : HOPE FOR WINTER AMBNP 1 (000001FA819F7ED8)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBNP 1 (000001FA7F8370C8)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBNP 1 (000001FA819F63D8)
+[LOG] SoundI::release                          : HOPE FOR WINTER AMB 2nd vi (000001F8E4917958)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMB 2nd vi (000001FAE66BD738)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMB 2nd vi (000001FA819FCC78)
+[LOG] SoundI::release                          : HOPE FOR WINTER AMBgrand (000001F8E4917CB8)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBgrand (000001FAE66BCD78)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBgrand (000001FA819FFBB8)
+[LOG] SoundI::release                          : HOPE FOR WINTER AMBstr ens (000001F8E4916F38)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBstr ens (000001FAE66BC3B8)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBstr ens (000001FA81A00788)
+[LOG] SoundI::release                          : HOPE FOR WINTER AMBcellos (000001F8E4918D98)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBcellos (000001FAE66BCF18)
+[LOG] SoundI::release                          :     HOPE FOR WINTER AMBcellos (000001FA81A02948)
+[LOG] SoundI::release                          : WIND HEAVY 1 (000001FA81A04CB8)
+[LOG] SoundI::release                          :     WIND HEAVY 1 (000001FA7F837268)
+[LOG] SoundI::release                          :     WIND HEAVY 1 (000001FA81A03878)
+[LOG] SoundI::release                          : WIND MAIN (000001F8E4909FA8)
+[LOG] SoundI::release                          :     WIND MAIN (000001FAE66BC6F8)
+[LOG] SoundI::release                          :     WIND MAIN (000001F8E49181C8)
+[LOG] SoundI::release                          :  (000001FA81C1F388)
+[LOG] SoundI::release                          :     SNOW STEP 1.2 (000001FAE6751A88)
+[LOG] SoundI::release                          :  (000001FA81C1E698)
+[LOG] SoundI::release                          :     SNOW STEP 2.2 (000001FA7F835BA8)
+[LOG] SoundI::release                          :  (000001FA81C1E3B8)
+[LOG] SoundI::release                          :     SNOW STEP 3.2 (000001FA7F837408)
+[LOG] SoundI::release                          :  (000001FA81C1EF38)
+[LOG] SoundI::release                          :     SNOW STEP 4.2 (000001FAE67525E8)
+[LOG] SoundI::release                          :  (000001FA81C1D108)
+[LOG] SoundI::release                          :     SNOW STEP 5.2 (000001FAE67522A8)
+[LOG] SoundI::release                          :  (000001FA81C1F218)
+[LOG] SoundI::release                          :     WATER STEP 1 (000001FA7F836088)
+[LOG] SoundI::release                          :  (000001FA81C1EAE8)
+[LOG] SoundI::release                          :     WATER STEP 2 (000001FA7F8363C8)
+[LOG] SoundI::release                          :  (000001FA81C1D3E8)
+[LOG] SoundI::release                          :     WATER STEP 3 (000001FA7F8375A8)
+[LOG] SoundI::release                          :  (000001FA81C1E978)
+[LOG] SoundI::release                          :     WATER STEP 4 (000001FA7F836F28)
+[LOG] SoundI::release                          :  (000001FA81C1E528)
+[LOG] SoundI::release                          :     WATER STEP 5 (000001FA7F8368A8)
+[LOG] SoundI::release                          :  (000001FA81C1DF68)
+[LOG] SoundI::release                          :     ICE STEP 1.2 (000001FA7F835EE8)
+[LOG] SoundI::release                          :  (000001FA81C1DB18)
+[LOG] SoundI::release                          :     ICE STEP 2.2 (000001FA7F836D88)
+[LOG] SoundI::release                          :  (000001FA81C1C868)
+[LOG] SoundI::release                          :     ICE STEP 3.2 (000001FA7F836708)
+[LOG] SoundI::release                          :  (000001FA81C1D278)
+[LOG] SoundI::release                          :     ICE STEP 4.2 (000001FA7F836228)
+[LOG] SoundI::release                          :  (000001FA81C1CF98)
+[LOG] SoundI::release                          :     ICE STEP 5.2 (000001FAE6751DC8)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.

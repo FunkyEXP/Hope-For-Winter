@@ -1047,6 +1047,25 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Item Name
+--- !u!1 &146378938 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5727397346492337932, guid: 6c50994fd922c4b40a2932a95044c7fe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1290298601}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &146378943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146378938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebea15d6bd5261248bf95eedc8aeb967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaterialValue: 2
 --- !u!1 &154339641
 GameObject:
   m_ObjectHideFlags: 0
@@ -5127,6 +5146,7 @@ GameObject:
   - component: {fileID: 380637136}
   - component: {fileID: 380637135}
   - component: {fileID: 380637134}
+  - component: {fileID: 380637137}
   m_Layer: 3
   m_Name: Terrain
   m_TagString: Untagged
@@ -5192,6 +5212,19 @@ Transform:
   m_Father: {fileID: 1244927160}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &380637137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380637133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebea15d6bd5261248bf95eedc8aeb967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaterialValue: 0
 --- !u!1 &410074745
 GameObject:
   m_ObjectHideFlags: 0
@@ -6110,6 +6143,25 @@ Transform:
   m_Father: {fileID: 1227377083}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &538121783 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4797717828165769617, guid: 09b28511db250f542b53780b69e6340f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1551871417}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &538121787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538121783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebea15d6bd5261248bf95eedc8aeb967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaterialValue: 1
 --- !u!1 &543493056 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4970264309395090915, guid: 53bd5c87c7e25d846b7ddd5f888b1b3e,
@@ -18955,6 +19007,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 781404313}
     m_Modifications:
+    - target: {fileID: 4797717828165769616, guid: 09b28511db250f542b53780b69e6340f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4797717828165769617, guid: 09b28511db250f542b53780b69e6340f,
         type: 3}
       propertyPath: m_Name
@@ -24181,6 +24238,32 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1737499277735599916}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2099242789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099242787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceed41807a7268e4580879e7638e97ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FootstepsEventPath: event:/SFX/Footstep
+  JumpingEventPath: event:/SFX/Jump & Land
+  MaterialParameterName: Material
+  SpeedParameterName: Speed Switch
+  JumpOrLandParameterName: Jump Or Land
+  StepDistance: 2.5
+  RayDistance: 1.2
+  StartRunningTime: 0.3
+  JumpInputName: Jump
+  MaterialTypes:
+  - Snow
+  - Water
+  - Ice
+  DefulatMaterialValue: 0
 --- !u!114 &2099242792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24241,20 +24324,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!114 &2099242795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2099242787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca377cc3b081f8548a5765e9eda5798e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentTerrain: 1
-  footstepSpeed: 0.8
 --- !u!1 &2112770041
 GameObject:
   m_ObjectHideFlags: 0
@@ -24709,7 +24778,7 @@ PrefabInstance:
     - target: {fileID: 1737499277767906925, guid: a957311ee8f334f4db68811f264ea071,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 682.518
+      value: 388
       objectReference: {fileID: 0}
     - target: {fileID: 1737499277767906925, guid: a957311ee8f334f4db68811f264ea071,
         type: 3}
